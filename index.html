@@ -25,10 +25,11 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">RS<span>.</span></a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="E:\SibalR_WebDevFol\assets\img\RS1.png" alt="Logo"></a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto " href="#about">About Me</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto " href="#skills">Skills</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -49,9 +50,69 @@
       </div>
     </div>
   </section>
+ <!-- ======= About Me Page Section ======= -->
+ <section id="about" class="d-flex align-items-center justify-content-center">
+  <div class="area" style="position: absolute;background-color: #2d3748;">
+      <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+  </div>
+  <div class="wrapper">
+      <div id="div-mask-front">
+          <h1 style="color: black;">I'm Reuben Rob Bondoc Sibal</h1>
+          <p style="color: black;">This page is about me</p>
+      </div>
+      <div id="div-mask-back" aria-hidden="true">
+          <div class="area" style="position: absolute;background-color: #4b5563;">
+              <ul class="circles">
+                  <li style="--color: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);"></li>
+                  <li style="--color: linear-gradient(315deg, #d387ab 0%, #b279a7 74%);"></li>
+                  <li style="--color: linear-gradient(315deg, #378b29 0%, #ffffff 74%);"></li>
+                  <li style="--color: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);"></li>
+                  <li style="--color: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);"></li>
+                  <li style="--color: linear-gradient(315deg, #ffffff 0%, #274060 74%);"></li>
+                  <li style="--color: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);"></li>
+                  <li style="--color: linear-gradient(319deg, #cdedfd 0%, #ffec82 37%, #ffcfd2 100%);"></li>
+                  <li style="--color: linear-gradient(315deg, #1dd1a1 0%, #d3d3d3 74%);"></li>
+                  <li style="--color: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);"></li>
+              </ul>
+          </div>
+          <pre>
+              <span class="variable">name</span> <span class="character">=</span> <span class="string">"Reuben Rob Sibal"</span>
+              <span class="variable">age</span> <span class="character">=</span> <span class="number">21</span>
+              <span class="variable">profession</span> <span class="character">=</span> <span class="string">"Web Developer"</span>
+              <span class="variable">expertise</span> <span class="character">=</span> <span class="string">"Developing Desktop and Web Applications"</span>
 
+              <span class="variable">skills</span> <span class="character">=</span> <span class="bracket">{</span>
+                  <span class="string">"Full-Stack Web Developer"</span> <span class="character">:</span> <span class="string">"HTML/CSS | Node/JS | MongoDB..."</span><span class="character">,</span>
+                  <span class="string">"Desktop App Developer"</span> <span class="character">:</span> <span class="string">"Java | CSS | HTML..."</span><span class="character">,</span>
+                  <span class="string">"Mobile App Developer"</span> <span class="character">:</span> <span class="string">"Java | Python | Flutter"</span><span class="character">,</span>
+                  <span class="string">"Cyber Security"</span> <span class="character">:</span> <span class="string">"Linux | Wireshark..."</span><span class="character">,</span>
+                  <span class="string">"Other"</span> <span class="character">:</span> <span class="string">"Python | Git/Github | Stackblitz ..."</span>
+              <span class="bracket">}</span>
+
+              <span class="variable">hobbies</span> <span class="character">=</span> <span class="bracket">[</span>
+                  <span class="string">"Web Application Development"</span><span class="character">,</span>
+                  <span class="string">"Learning New Things"</span><span class="character">,</span>
+                  <span class="string">"Basketball/Volleyball"</span><span class="character">,</span>
+                  <span class="string">"Sleeping"</span><span class="character">,</span>
+                  <span class="string">"Spending Time With Family"</span>
+              <span class="bracket">]</span>
+          </pre>
+      </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+</section>
   <main id="main">
-
     <!-- ======= Menu Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
@@ -63,46 +124,12 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">About Me</li>
               <li data-filter=".filter-card">Projects</li>
               <li data-filter=".filter-web">Certificates</li>
             </ul>
           </div>
         </div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>About Me</h4>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/3.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Educational & Skills</h4>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/4.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Work Experience</h4>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/2.1.png" class="img-fluid" alt="">
@@ -210,6 +237,30 @@
                 </div>
                 <br>
                 <div class="skill">
+                  <span class="skill-name">PYTHON</span>
+                  <span class="skill-level">
+                      <span class="skill-progress" style="width: 75%;"></span>
+                  </span>
+                  <span class="percent"> 75%</span>
+              </div>
+              <br>
+                <div class="skill">
+                    <span class="skill-name">SQL</span>
+                    <span class="skill-level">
+                        <span class="skill-progress" style="width: 65%;"></span>
+                    </span>
+                    <span class="percent"> 65%</span>
+                </div>
+              <br>
+                <div class="skill">
+                    <span class="skill-name">Vue.js</span>
+                    <span class="skill-level">
+                        <span class="skill-progress" style="width: 60%;"></span>
+                    </span>
+                    <span class="percent"> 60%</span>
+                </div>
+                <br>
+                <div class="skill">
                     <span class="skill-name">JAVA</span>
                     <span class="skill-level">
                         <span class="skill-progress" style="width: 50%;"></span>
@@ -223,30 +274,6 @@
                         <span class="skill-progress" style="width: 50%;"></span>
                     </span>
                     <span class="percent"> 50%</span>
-                </div>
-                <br>
-                <div class="skill">
-                    <span class="skill-name">PYTHON</span>
-                    <span class="skill-level">
-                        <span class="skill-progress" style="width: 75%;"></span>
-                    </span>
-                    <span class="percent"> 75%</span>
-                </div>
-                <br>
-                <div class="skill">
-                    <span class="skill-name">Vue.js</span>
-                    <span class="skill-level">
-                        <span class="skill-progress" style="width: 60%;"></span>
-                    </span>
-                    <span class="percent"> 60%</span>
-                </div>
-                <br>
-                <div class="skill">
-                    <span class="skill-name">SQL</span>
-                    <span class="skill-level">
-                        <span class="skill-progress" style="width: 65%;"></span>
-                    </span>
-                    <span class="percent"> 65%</span>
                 </div>
                 <br>
             </div>
