@@ -360,7 +360,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# landing Page Section
 --------------------------------------------------------------*/
 #home {
   width: 100%;
@@ -902,7 +902,7 @@ pre .number {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# Skills
 --------------------------------------------------------------*/
 .counts .content h3 {
   font-weight: 700;
@@ -1158,7 +1158,22 @@ pre .number {
   opacity: 1;
   bottom: 15px;
 }
+/**/
+.shaped-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ffc451;
+  color: #ffffff;
+  border: 2px solid #ffc451; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  border-radius: 50px; 
+}
 
+.shaped-button:hover {
+  background-color: #ffa500; 
+  border-color: #ffa500; 
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
