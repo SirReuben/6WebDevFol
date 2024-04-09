@@ -519,6 +519,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 #div-mask-front,
